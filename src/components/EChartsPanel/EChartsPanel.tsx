@@ -216,3 +216,6 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
     </>
   );
 };
+
+declare const window: any;
+window.EChartsPanel = EChartsPanel
